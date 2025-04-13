@@ -13,7 +13,7 @@ const Sidebar = () => {
         <hr className='text-gray-800 font-bold text-2xl'/>
          <ul className='mt-3 text-gray-800 font-bold'>
           <li className=' rounded hover:shadow hover:bg-gray-300 py-2 px-3 '>
-            <Link to="/dashboard"><FaChartBar className='inline-block w-6 h-6 mr-2 -mt-2'></FaChartBar>Dashbaord</Link>
+            <Link to="/dashboard"><FaChartBar className='inline-block w-6 h-6 mr-2 -mt-2'></FaChartBar>Dashboard</Link>
           </li>
           <li className=' rounded hover:shadow hover:bg-gray-300 py-2 px-3'>
             <Link to="/transaction"><FaMoneyBillTransfer className='inline-block w-6 h-6 mr-2 -mt-2'></FaMoneyBillTransfer>Transaction</Link>
