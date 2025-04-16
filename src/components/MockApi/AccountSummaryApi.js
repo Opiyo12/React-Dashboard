@@ -5,7 +5,6 @@ const AccountSummaryApi=
     "amount": 1000000
   },
   {
-    "type": "Expense",
     "amount": 500000
   },
   {
