@@ -1,19 +1,12 @@
 const AccountSummaryApi=
-[
+
   {
-    "type": "Income",
-    "amount": 1000000
-  },
-  {
-    "amount": 500000
-  },
-  {
-    "type": " Net Balance",
-    "amount": 500000
-  },
-  {
-    "type": "Saving Goal Progress",
-    "amount": 10
+    "income": 500000,
+    "expenses": 200000,
+    "netBalance": 300000,
+    "Saving Goal": 20
   }
-]
+  
+
+export default AccountSummaryApi;
 
