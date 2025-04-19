@@ -1,11 +1,14 @@
 import { create } from "zustand";
-import WorkSpaceSummaryData from "../ApiService/ApiFetch";
 const useStore= create((set)=>({
     transaction:[],
     accountSummary:{},
     isLoading: true,
     error: null,
-    filter:{},
+    filters: {
+        date: null,
+        range:null,
+        category: null,
+      },
     setTransaction: (data)=>set({transaction:data}),
     setAccountSummary:(data)=>set({accountSummary:data}),
     setLoading:(status)=>set({isLoading:status}),
